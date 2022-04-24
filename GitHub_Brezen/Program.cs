@@ -20,10 +20,14 @@ namespace GitHub_Brezen
                 Console.WriteLine(cislo1);
                 Console.WriteLine(cislo2);
             }
-            else
+            else if (cislo2 > cislo1)
             {
                 Console.WriteLine(cislo2);
                 Console.WriteLine(cislo1);
+            }
+            else
+            {
+                Console.WriteLine("čísla jsou shodná");
             }
             Console.ReadLine();
         }
