@@ -10,7 +10,9 @@ namespace GitHub_Brezen
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("zadej číslo 1");
             float cislo1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("zadej číslo 2");
             float cislo2 = float.Parse(Console.ReadLine());
             Console.Clear();
             if(cislo1 > cislo2)
